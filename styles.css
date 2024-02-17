@@ -41,9 +41,9 @@ h1 {
   font-size: clamp(5rem, 7vw, 8rem);
   font-family: santacarla, Arial, Helvetica, sans-serif;
   font-weight: bold;
-  transition: font-size 250ms;
   color: rgb(0, 0, 0);
   letter-spacing: normal;
+  transition: all 100ms;
 
   margin-top: 15%;
 }
@@ -87,7 +87,7 @@ p {
   font-size: 2rem;
   background-color: rgba(0, 0, 0, 0.582);
   color: whitesmoke;
-  margin-top: 450px;
+  margin-top: 150%;
   padding: 10px;
   border-style: solid;
   border-radius: 5px;
@@ -112,6 +112,8 @@ p1 {
 
 .handle_container {
   background-color: black;
+  display: flex;
+  flex-direction: column;
 }
 
 h2 {
@@ -120,6 +122,7 @@ h2 {
   font-family: Poppins, Arial, Helvetica, sans-serif;
   padding-top: 70px;
   padding-left: 8%;
+  padding-bottom: 30px;
 }
 
 .every {
@@ -130,7 +133,17 @@ p2 {
   font-family: Roboto, Arial, Helvetica, sans-serif;
   font-size: 1.5rem;
   color: whitesmoke;
-  margin-bottom: 20px;
+  margin-bottom: 10px;
+}
+
+.lakas_container{
+  padding-bottom: 40px;
+}
+
+.lakas{
+  font-family: Poppins, Arial, Helvetica, sans-serif;
+  padding-left: 8%;
+  color: gray;
 }
 
 .handle_description {
@@ -139,7 +152,7 @@ p2 {
   font-family: Poppins, Arial, Helvetica, sans-serif;
   text-align: justify;
   text-justify: inter-word;
-  padding-bottom: 70px;
+  padding-bottom: 40px;
 }
 
 .our_selection {
@@ -402,7 +415,7 @@ h4 {
 }
 
 a {
-  color: aqua;
+  color: orange;
 }
 
 .signup_button {
@@ -506,4 +519,160 @@ li:hover {
   font-size: 1rem;
   color: rgb(125, 125, 125);
   padding-right: 100px;
+}
+
+
+/* EFFECT OF TITLE LANDING PAGE */
+
+.brand{
+  transition: all 100ms;
+}
+
+.brand:hover{
+  color:  #00ffff;
+  text-shadow:
+      0 0 7px #fff,
+      0 0 10px #fff,
+      0 0 21px #fff,
+      0 0 42px #00ffff,
+      0 0 82px #00ffff,
+      0 0 92px #00ffff,
+      0 0 102px #00ffff,
+      0 0 151px #00ffff;
+}
+
+.brand1{
+  transition: all 100ms;
+}
+
+.brand1:hover{
+  color: #87ceeb;
+  text-shadow:
+  0 0 7px #fff,
+  0 0 10px #fff,
+  0 0 21px #fff,
+  0 0 42px #87ceeb,
+  0 0 82px #87ceeb,
+  0 0 92px #87ceeb,
+  0 0 102px #87ceeb,
+  0 0 151px #87ceeb;
+}
+
+.brand2{
+  transition: all 100ms;
+}
+
+.brand2:hover{
+  color: #c2e0f5;
+  text-shadow:
+  0 0 7px #fff,
+  0 0 10px #fff,
+  0 0 21px #fff,
+  0 0 42px #c2e0f5,
+  0 0 82px #c2e0f5,
+  0 0 92px #c2e0f5,
+  0 0 102px #c2e0f5,
+  0 0 151px #c2e0f5;
+}
+
+.brand3{
+  transition: all 100ms;
+}
+
+.brand3:hover{
+  color: #f0f4f9;
+  text-shadow:
+  0 0 7px #000000,
+  0 0 10px #ffffff,
+  0 0 21px #ffffff,
+  0 0 42px #f0f4f9,
+  0 0 82px #f0f4f9,
+  0 0 92px #f0f4f9,
+  0 0 102px #f0f4f9,
+  0 0 151px #f0f4f9;
+}
+
+.brand4{
+  transition: all 100ms;
+}
+
+.brand4:hover{
+  color: #f6e2c3;
+  text-shadow:
+  0 0 7px #fff,
+  0 0 10px #fff,
+  0 0 21px #fff,
+  0 0 42px #f6e2c3,
+  0 0 82px #f6e2c3,
+  0 0 92px #f6e2c3,
+  0 0 102px #f6e2c3,
+  0 0 151px #f6e2c3;
+}
+
+.brand5{
+  transition: all 100ms;
+}
+
+.brand5:hover{
+  color: #f2c992;
+  text-shadow:
+  0 0 7px #fff,
+  0 0 10px #fff,
+  0 0 21px #fff,
+  0 0 42px #f2c992,
+  0 0 82px #f2c992,
+  0 0 92px #f2c992,
+  0 0 102px #f2c992,
+  0 0 151px #f2c992;
+}
+
+.brand6{
+  transition: all 100ms;
+}
+
+.brand6:hover{
+  color: #eaae61;
+  text-shadow:
+  0 0 7px #fff,
+  0 0 10px #fff,
+  0 0 21px #fff,
+  0 0 42px #eaae61,
+  0 0 82px #eaae61,
+  0 0 92px #eaae61,
+  0 0 102px #eaae61,
+  0 0 151px #eaae61;
+}
+
+.brand7{
+  transition: all 100ms;
+}
+
+.brand7:hover{
+  color: #e28d30;
+  text-shadow:
+  0 0 7px #fff,
+  0 0 10px #fff,
+  0 0 21px #fff,
+  0 0 42px #e28d30,
+  0 0 82px #e28d30,
+  0 0 92px #e28d30,
+  0 0 102px #e28d30,
+  0 0 151px #e28d30;
+}
+
+.brand8{
+  transition: all 100ms;
+}
+
+.brand8:hover{
+  color: #ff7f00;
+  text-shadow:
+  0 0 7px #fff,
+  0 0 10px #fff,
+  0 0 21px #fff,
+  0 0 42px #ff7f00,
+  0 0 82px #ff7f00,
+  0 0 92px #ff7f00,
+  0 0 102px #ff7f00,
+  0 0 151px #ff7f00;
 }
